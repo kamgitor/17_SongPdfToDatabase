@@ -245,21 +245,21 @@ namespace SongPdfToDatabase
 
 							// DEBUG
 							// if (true)
-							/*				To mialem wyswietlanie dodawanego songa
+
+
+							// DEBUG
+							// do breakowania na danym kawalku
+							if (numer1 == InNumber.Text)
+							{
+								display = true;
+							}
+
+
 							if (display)
 							{
 								// Op3
 								SimpleSongView podglad = new SimpleSongView(numer1, numer2, tytul, tekst, powtorki, akordy);
 								podglad.ShowDialog();
-							}
-							*/
-
-
-							// DEBUG
-							// do breakowania na danym kawalku
-							if (numer1 == "604")
-							{
-								display = true;
 							}
 
 

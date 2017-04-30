@@ -5,9 +5,11 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SongPdfToDatabase"
         mc:Ignorable="d"
-        Title="SongPdfToDatabase" Height="158.09" Width="234.776">
-	<Grid Margin="0,0,21,21">
-		<Button x:Name="button" Content="Start Converstion" HorizontalAlignment="Left" Margin="31,24,0,0" VerticalAlignment="Top" Width="127" Click="button_Click"/>
+        Title="SongPdfToDatabase" Height="155.09" Width="262.776">
+	<Grid Margin="0,0,-8,-20">
+		<Button x:Name="button" Content="Start Converstion" HorizontalAlignment="Left" Margin="37,30,0,0" VerticalAlignment="Top" Width="183" Click="button_Click"/>
+		<Label x:Name="label" Content="Start song to view" HorizontalAlignment="Left" Margin="37,72,0,0" VerticalAlignment="Top" Width="115"/>
+		<TextBox x:Name="InNumber" HorizontalAlignment="Left" Height="23" Margin="181,75,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="39" Text="10"/>
 
 	</Grid>
 </Window>
