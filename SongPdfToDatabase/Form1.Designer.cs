@@ -36,6 +36,7 @@
 			// 
 			// v_chords
 			// 
+			this.v_chords.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
 			this.v_chords.Location = new System.Drawing.Point(636, 44);
 			this.v_chords.Name = "v_chords";
 			this.v_chords.Size = new System.Drawing.Size(157, 423);
@@ -45,6 +46,7 @@
 			// 
 			// v_repeat
 			// 
+			this.v_repeat.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
 			this.v_repeat.Location = new System.Drawing.Point(520, 44);
 			this.v_repeat.Name = "v_repeat";
 			this.v_repeat.Size = new System.Drawing.Size(110, 423);
@@ -54,6 +56,7 @@
 			// 
 			// v_text
 			// 
+			this.v_text.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
 			this.v_text.Location = new System.Drawing.Point(23, 44);
 			this.v_text.Name = "v_text";
 			this.v_text.Size = new System.Drawing.Size(498, 423);
@@ -71,7 +74,7 @@
 			this.v_alltitle.TabIndex = 6;
 			this.v_alltitle.Text = "100";
 			// 
-			// SimpleSnogView
+			// SimpleSongView
 			// 
 			this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
 			this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -80,7 +83,7 @@
 			this.Controls.Add(this.v_repeat);
 			this.Controls.Add(this.v_text);
 			this.Controls.Add(this.v_alltitle);
-			this.Name = "SimpleSnogView";
+			this.Name = "SimpleSongView";
 			this.Text = "SimpleSongView";
 			this.ResumeLayout(false);
 			this.PerformLayout();
